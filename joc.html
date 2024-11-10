@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joc de les Parelles - Partida</title>
+    <link rel="stylesheet" href="Styles/styles.css">
+</head>
+<body>
+    <div id="joc">
+        <h1>Joc de les Parelles</h1>
+        <p>Nom del jugador: <span id="nomJugador"></span></p>
+        <p>Punts: <span id="punts">0</span></p>
+        <p id="millorPuntuacio">Puntuació més alta: 0</p>
+        <div id="taulell">
+            <!-- Aquí colocaremos las cartas dinámicamente -->
+        </div>
+        <button onclick="reiniciarJuego()">Reiniciar Juego</button>
+        <button onclick="mostrarInstruccions()">Mostra les instruccions</button>
+    </div>
+    <script src="Script/joc_partida.js"></script>
+</body>
+</html>
